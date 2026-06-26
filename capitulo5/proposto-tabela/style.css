@@ -1,0 +1,47 @@
+body{
+    width:70%;
+    margin: auto;
+}
+
+table{
+    width: 60%;
+    margin: 50px auto;
+    text-align: center;
+}
+thead{
+    text-transform: uppercase;
+    background-color: #036;
+    color: white;
+}
+thead tr th{
+    border: solid thin white;
+}
+thead tr td{
+    border: solid thin white;
+}
+tfoot tr td{
+    background-color: #036;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+table, th, td, tr{
+    border: solid thin #036;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+thead, tfoot{
+    background-color: #036;
+    color: white;
+}
+
+th{
+    border: 1px solid white;
+}
+
+.pinto{
+    padding: 25px;
+    font-size: 25px;
+}

@@ -1,0 +1,72 @@
+body {
+    width: 90%;
+    margin: auto;
+    max-width: 1800px;
+}
+
+article img {
+    max-width: 100%;
+}
+
+article {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.soMedio,
+.soGrande {
+    display: none;
+}
+
+.soPequeno {
+    display: block;
+}
+
+@media screen and (min-width: 420px) {
+
+    article {
+        width: 45%;
+        float: left;
+    }
+
+    article:nth-child(2) {
+        margin: 2% 2%;
+    }
+
+    article:last-of-type {
+        float: none;
+        width: 95%;
+    }
+
+    .soPequeno,
+    .soGrande {
+        display: none;
+    }
+
+    .soMedio {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 680px) {
+
+    article {
+        width: 30%;
+        float: left;
+        margin-right: 30px;
+    }
+
+    article:last-of-type {
+        float: left;
+        width: 30%;
+    }
+
+    .soPequeno,
+    .soMedio {
+        display: none;
+    }
+
+    .soGrande {
+        display: block;
+    }
+}
